@@ -1,0 +1,33 @@
+.header {
+    padding: 56px 0;
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    ul {
+        margin-left: auto;
+        display: flex; /*alinem elementele din lista */
+        justify-content: center; //centreaza in pagina elementele din meniu
+    }
+    li {
+        margin-right: 20px;
+        &:last-of-type {
+            margin-right: 0;
+            a{
+                padding-right: 0;
+            }
+        }
+           
+            a {                 /*seteaza underline by default*/
+                font-weight: 700;
+                font-size: 18px;
+                color: rgba(31,21,52,.5); /*RGB a-alphachanel -cu ajutorul lui setam opacitatea .5>>50%*/
+                display: inline-block;
+                padding: 5px 10px;/* this make the "click-area' aroud the menu-buttons> larger*/
+                &:hover {
+                    color: rgba(31,21,52,1);
+                }
+            }
+        }
+    }

@@ -1,0 +1,38 @@
+  
+.footer {
+    background: linear-gradient(183.41deg, #e4e4e48a -8.57%, #0950bd 82.96%);
+    padding: 80px 0;
+    color: #FFF;
+    .container {
+        display: flex;
+
+        div {
+            width: 20%;
+            &:first-of-type {
+                width: 40%;
+            }           
+        }          
+    }
+
+    p {
+        margin-top: 20px;
+        line-height: 1.8;
+    }
+
+    strong {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    ul {
+        margin-top: 20px;
+    }
+
+    a {
+        display: inline-block;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 300;
+        padding: 7px 0;
+    }   
+}
