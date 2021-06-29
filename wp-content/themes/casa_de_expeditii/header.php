@@ -13,11 +13,13 @@
 	<div class="container">
 	    <a href="/"><img src="<?= get_stylesheet_directory_uri() . "/images/memologoblack.png" ?>" /></a>
 		<ul>
-				<li><a href="#">Acasa</a></li>
-				<li><a href="#">Servicii</a></li>
-				<li><a href="#">Asistenta</a></li>
-				<li><a href="#">Cerere de oferta</a></li>
-				<li><a href="#">Contact</a></li>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Despre noi</a></li>
+		<li><a href="#">Servicii</a></li>
+		<li><a href="#">Rute</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">Galerie</a></li>
+		<li><a href="#">Contact</a></li>
 		</ul>
     </div>
 </header>       
