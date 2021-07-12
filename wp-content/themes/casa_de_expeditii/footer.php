@@ -1,42 +1,44 @@
+
 <footer class="footer">
     <div class="container">
-        <div>
-            <a href="/"><img src="<?= get_stylesheet_directory_uri() . "/images/memologoblack.png" ?>" /></a> 
-            <p>Memo Transporter ofera servicii de transport marfa Intern sau Extern</p>
-            <p>©MEMO Transporter LTD 2021. Toate drepturile rezervate</p>
-        </div>
-        <div>
-            <strong>Compania</strong>
-            <ul>
-                <li><a href="#">Despre noi</a></li>
-                <li><a href="#">Testimoniale</a></li>
-                <li><a href="#">Cauta un transportator</a></li>
-                <li><a href="#">Cerere de oferta</a></li>
-            </ul>
-        </div>
-        <div>
-            <strong>Regiuni</strong>
-            <ul>
-                <li><a href="#">Romania</a></li>
-                <li><a href="#">Europa de Est</a></li>
-                <li><a href="#">Europa Centrala</a></li>
-                <li><a href="#">Europa de Vest</a></li>
-            </ul>
-        </div>
-        <div>
-            <strong>Ajutor</strong>
-            <ul>
-                <li><a href="#">Centrul de ajutor</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Instructiuni</a></li>
-                <li><a href="#">Cum functioneaza</a></li>
-            </ul>
+        <div class="row">
+            <div class="col-xs-12 col-md-5 col-lg-4">
+                <a href="/"><img src="<?= get_stylesheet_directory_uri() . "/images/logo-white.svg" ?>" /></a>
+                <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
+            </div>
+            <div class="footer-links col-xs-12 col-sm-4 col-md-2 col-md-offset-1 col-lg-offset-2">
+                <strong>Company</strong>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Find a doctor</a></li>
+                    <li><a href="#">Apps</a></li>
+                </ul>
+            </div>
+            <div class="footer-links col-xs-12 col-sm-4 col-md-2">
+                <strong>Region</strong>
+                <ul>
+                    <li><a href="#">Indonesia</a></li>
+                    <li><a href="#">Singapore</a></li>
+                    <li><a href="#">Hongkoong</a></li>
+                    <li><a href="#">Canada</a></li>
+                </ul>
+            </div>
+            <div class="footer-links col-xs-12 col-sm-4 col-md-2">
+                <strong>Help</strong>
+                <ul>
+                    <li><a href="#">Help center</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Instructions</a></li>
+                    <li><a href="#">how it works</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </footer>
 
-
-<?php wp_footer(); ?>  
+<?php wp_footer(); ?>
 
 </body>
-</html>   <!--aici inchid markup-u deschis in header body si html -->
+</html>
