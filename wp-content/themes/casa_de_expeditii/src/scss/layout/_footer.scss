@@ -1,5 +1,5 @@
 .footer {
-    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    background: linear-gradient(351deg, #ba67f3 -8.57%, #5a67f2 85%);
     padding: 40px 0;
     color: #FFF;
     margin-top: 100px;
@@ -14,12 +14,24 @@
         }
     }
 
+    &-about {
+        p:first-of-type {
+            margin-top: 0;
+        }
+        p a {
+            padding: 0;
+        }
+        img {
+            display: block;
+        }
+    }
+
     p {
         margin-top: 20px;
         line-height: 1.8;
     }
 
-    strong {
+    .widget-title {
         font-size: 20px;
         font-weight: 700;
     }
